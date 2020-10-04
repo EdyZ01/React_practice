@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.parent{
+  background-color: #f0f1f2;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+  
+  height: 100%;
+  width: 80vw;
+  margin:0 10vw 0 10vw;
+  display : flex
+}
+
+
+ .container > * {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  
+ }
+ 
+ .photo{
+   flex: 0.6;
+   margin-top:10%;
+   width:55%;
+   height: 80%;
+   margin-left: 200px;
+   margin-bottom: 100px;
+   padding-left: 100px;
+ }
+
+ .login{
+  flex :0.5;
+  
+}
+
+.login-holder > * {
+  flex : 1;
+  margin: 7px;
+}
+
+
+
+.login-holder {
+  
+  background-color : white;
+  height : 70vh;
+  width: 25vw;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+ }
+
+ .login-holder > h1{
+   text-align: center;
+   font-family: Proxima Nova;
+   font-size: 40px;
+   padding-bottom: 20px;
+   padding-top: 10px;
+ }
+.input-holder {
+  border : 1px solid #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: grey;
+  border-radius: 5px;
+  width: 75%;
+  height: 70%;
+  align-self: center;
+  border-color:grey;
+  padding-left: 5px ;
+  
+}
+
+.login-Button {
+  color: white;
+  background-color: #1877f2;
+  border: none;
+  border-radius : 5px;
+  font-size: 24px;
+  font-weight: 700px;
+  border-radius:10px;
+  width: 75%;
+  align-self: center;
+}
+
+.link {
+  text-align: center;
+  margin : 0;
+  text-decoration:none;
+  font-weight: 700px;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.linktwo {
+  text-align: center;
+  margin : 0;
+  text-decoration:none;
+  font-weight: 700px;
+  font-size: 15px;
+  color: black;
+}
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  
+}
+h3:before, h3:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #000;
+  margin: auto;
+}
+h3:before {
+  margin-right: 10px
+}
+h3:after {
+  margin-left: 10px
+}
+
+.text-holder{
+  background-color : white;
+  height : 8vh;
+  width: 24vw;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-top :10px;
+  padding-left:  15px
+}
+
+.last{
+  text-align: center;
+}
